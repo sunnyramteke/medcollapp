@@ -192,6 +192,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 setState(() {
                   latLong = 'Please wait, fetching latLong';
                   location = 'Please wait, fetching Location';
+                  countryDetails = 'Please wait while fetching Country details';
+                  country = {};
+
+                  currencyRate = 'Please wait while fetching Currency Rate';
                 });
 
                 appFlow();
